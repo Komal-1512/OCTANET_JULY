@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    overflow: hidden;
+}
+
+.left {
+    width: 50%;
+    height: 100vh;
+    background: black;
+}
+
+.right {
+    width: 50%;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.932);
+}
+
+#mug {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+nav {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+}
+
+#search {
+    margin-right: 50px ;
+}
+
+.h-text {
+    position: absolute;
+    color: white;
+    top: 20%;
+    left: 15%;
+    letter-spacing: 5px;
+    font-size: 30px;
+
+}
+
+.t-left {
+    position: absolute;
+    color: white;
+    left: 5%;
+    bottom: 15%;
+    max-width: 400px;
+    padding-left: 50px;
+    border-left: 5px solid rgb(73, 27, 10);
+}
+
+.t-left p{
+    color: grey;
+    margin-top: 10px;
+}
+
+.t-right {
+    position: absolute;
+    color: black;
+    right: 0;
+    bottom: 15%;
+    max-width: 400px;
+    padding-right: 50px;
+}
+
+.t-right p{
+    color: grey;
+    margin-top: 10px;
+}
+
+.l-box {
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    bottom: 12%;
+    background: rgba(0,0,0,0.2);
+    z-index: -1;
+}
+
+.r-box {
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    bottom: 12%;
+    background: rgba(0,0,0,0.2);
+    z-index: -1;
+}
